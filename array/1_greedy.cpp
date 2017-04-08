@@ -11,7 +11,7 @@ input:
 int main(){
   int snake[10000];
   int n, m;
-  scanf("Please enter 2 intergers: %d%d", &n, &m);
+  scanf("%d %d", &n, &m);
   for(int i = 0; i<n; i++){
     scanf("%d", &snake[i]);
   }
@@ -22,5 +22,6 @@ int main(){
     for (int k = 0; k < (head-tail); k++){
       sum += snake[k];
     }
+    printf("%d", sum);
   }
 }
