@@ -22,7 +22,7 @@ int main(){
     scanf("%d %d", &head, &tail);
     for (int k = (head-1); k < (tail - 1); k++){ //輸入2,3;算array的第1項到第2項
       sum += snake[k];
-      printf("%d", sum);
     }
+    printf("%d\n", sum);
   }
 }
