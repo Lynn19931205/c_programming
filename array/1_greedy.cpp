@@ -17,10 +17,10 @@ int main(){
   }
   int head, tail;
   for (int j = 0; j<m; j++){
-    scanf("%d", &head, &tail);
+    scanf("%d%d", &head, &tail);
   }
   int sum = 0;
   for (int k = 0; k < (head-tail); k++){
-    sum += snake[i];
+    sum += snake[k];
   }
 }
