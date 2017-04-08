@@ -16,11 +16,11 @@ int main(){
     scanf("%d", &snake[i]);
   }
   int head, tail;
+  int sum = 0;
   for (int j = 0; j<m; j++){
     scanf("%d%d", &head, &tail);
-  }
-  int sum = 0;
-  for (int k = 0; k < (head-tail); k++){
-    sum += snake[k];
+    for (int k = 0; k < (head-tail); k++){
+      sum += snake[k];
+    }
   }
 }
