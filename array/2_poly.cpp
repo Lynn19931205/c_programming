@@ -9,7 +9,8 @@ int f(int x){
   int sum = 0;
   int item;
   for (int j=0; j<=n; j++){
-    item = array[j]*k //把係數和當前x相乘?
+    item = array[j]*k; 
+    k = k*x;
     sum += item;
   }
 }
